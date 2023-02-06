@@ -1,3 +1,4 @@
+import InputNumber from "primevue/inputnumber";
 import InputText from "primevue/inputtext";
 import Password from "primevue/password";
 import Calendar from "primevue/calendar";
@@ -19,6 +20,7 @@ app.use(PrimeVue);
 
 app.component("Dialog", Dialog);
 app.component("InputText", InputText);
+app.component("InputNumber", InputNumber);
 app.component("Divider", Divider);
 app.component("Password", Password);
 app.component("Calendar", Calendar);

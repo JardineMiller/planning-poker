@@ -1,6 +1,7 @@
 <script lang="ts">
     import Validation from "@/validation/validation";
-    export default {
+    import { defineComponent } from "vue";
+    export default defineComponent({
         data() {
             return {
                 username: "",
@@ -16,7 +17,7 @@
                 this.submitted = true;
             },
         },
-    };
+    });
 </script>
 
 <template>
